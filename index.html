@@ -3,103 +3,115 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio de Oscar – Programación</title>
+  <title>Portfolio de Oscar</title>
   <style>
     body {
-      font-family: 'Verdana', sans-serif;
-      background-color: #f0f0f5;
       margin: 0;
-      padding: 0;
+      font-family: 'Courier New', monospace;
+      background: linear-gradient(120deg, #e0f7fa, #ffe0b2);
       color: #222;
     }
 
     header {
-      background-color: #4b6cb7;
-      color: #fff;
+      background-color: #ff7043;
+      color: white;
+      padding: 50px 20px;
       text-align: center;
-      padding: 40px 20px;
+      clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     }
 
     header h1 {
       margin: 0;
-      font-size: 2.2em;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-style: italic;
+      font-size: 1.1em;
     }
 
     main {
-      max-width: 850px;
-      margin: 30px auto;
-      padding: 0 20px;
-    }
-
-    section {
-      background-color: #fff;
-      margin-bottom: 25px;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
     }
 
     h2 {
-      color: #4b6cb7;
-      margin-bottom: 15px;
+      font-size: 1.8em;
+      border-bottom: 3px solid #ff7043;
+      padding-bottom: 5px;
+      margin-top: 50px;
     }
 
-    a.button {
-      display: inline-block;
-      background-color: #4b6cb7;
-      color: white;
-      padding: 10px 18px;
-      border-radius: 5px;
+    ul {
+      list-style: square;
+      padding-left: 20px;
+    }
+
+    a {
+      color: #d84315;
       text-decoration: none;
-      margin-top: 10px;
+      font-weight: bold;
     }
 
-    a.button:hover {
-      background-color: #3a539b;
+    a:hover {
+      text-decoration: underline;
     }
 
     footer {
+      margin-top: 60px;
       text-align: center;
-      padding: 15px;
-      background-color: #4b6cb7;
-      color: white;
-      margin-top: 40px;
+      background-color: #ffccbc;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #5d4037;
+    }
+
+    .code-snippet {
+      background-color: #fff3e0;
+      padding: 10px;
+      font-family: 'Courier New', monospace;
+      border-left: 5px solid #ff7043;
+      margin: 15px 0;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Oscar – Portfolio de Programación</h1>
-    <p>Ejercicios, teoría y proyectos realizados durante el curso</p>
+    <h1>Oscar – Mi Portfolio de Programación</h1>
+    <p>Ejercicios, teoría y proyectos personales con estilo único</p>
   </header>
 
   <main>
+    <h2>Mis ejercicios</h2>
+    <p>Todos los ejercicios que he realizado durante el curso están disponibles en GitHub:</p>
+    <ul>
+      <li><a href="https://github.com/Oscar0000000/PROG" target="_blank">Ver ejercicios en GitHub</a></li>
+    </ul>
+    
+    <div class="code-snippet">
+mensaje = "Hola Mundo"
+print(mensaje)
+    </div>
+    <p>Ejemplo simple de “Hola Mundo” usando una variable para almacenar el texto.</p>
 
-    <section>
-      <h2>Ejercicios de Programación</h2>
-      <p>Todos los ejercicios realizados durante las clases están disponibles en mi repositorio de GitHub.</p>
-      <a class="button" href="https://github.com/Oscar0000000/PROG" target="_blank">Ver ejercicios</a>
-    </section>
+    <h2>Teoría y apuntes</h2>
+    <p>He documentado los conceptos teóricos aprendidos durante el curso en mi blog:</p>
+    <ul>
+      <li><a href="https://oamacor.wordpress.com" target="_blank">Visitar mi blog en WordPress</a></li>
+    </ul>
 
-    <section>
-      <h2>Teoría y Apuntes</h2>
-      <p>He documentado los conceptos teóricos y explicaciones en mi blog personal de WordPress.</p>
-      <a class="button" href="https://oamacor.wordpress.com" target="_blank">Visitar mi blog</a>
-    </section>
-
-    <section>
-      <h2>Sobre mí</h2>
-      <p>Soy estudiante de programación y este portfolio refleja mi aprendizaje y práctica en distintos lenguajes y conceptos.</p>
-      <p>Contacto: <strong>tuemail@example.com</strong></p>
-    </section>
-
+    <h2>Sobre mí</h2>
+    <p>Soy estudiante de programación y este portfolio refleja mis aprendizajes, ejercicios y proyectos.</p>
+    
   </main>
 
   <footer>
-    <p>© 2025 Oscar – Todos los derechos reservados</p>
+    <p>© 2025 Oscar – Portfolio único y original</p>
   </footer>
 
 </body>
 </html>
+
 
