@@ -1,16 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Index Page</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio de Programación – Oscar</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+      background-color: #f4f6f8;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #007acc;
+      color: white;
+      text-align: center;
+      padding: 30px 15px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      background: #005fa3;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      border-left: 5px solid #007acc;
+      padding-left: 10px;
+      color: #007acc;
+    }
+    a.btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #007acc;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    a.btn:hover {
+      background: #005fa3;
+    }
+    footer {
+      background: #007acc;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
 </head>
 <body>
-    <h1>Mi Portfolio</h1>
-    <p>Este es el punto de entrada de mi portfolio donde dejare los ejercicios teoricos y los ejercicios practicos que hemos ido haciendo</p>
-    <ul>
-          <li><a href="https://oamacor.wordpress.com/">Ejercicios Teoricos en mi worldpress</a></li>
-          <li><a href="https://github.com/Oscar0000000/PROG">Ejercicios del tema 1 de Python</a></li>
-    </ul>
+
+  <header>
+    <h1>Portfolio de Programación – Oscar</h1>
+    <p>Ejercicios, teoría y proyectos personales</p>
+  </header>
+
+  <nav>
+    <a href="#ejercicios">Ejercicios</a>
+    <a href="#teoria">Teoría</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <main>
+    <section id="ejercicios">
+      <h2>Ejercicios de Programación</h2>
+      <p>En este apartado encontrarás los ejercicios desarrollados durante el curso, organizados y subidos a mi repositorio de GitHub.</p>
+      <a class="btn" href="https://github.com/Oscar0000000/PROG" target="_blank">Ver ejercicios en GitHub</a>
+    </section>
+
+    <section id="teoria">
+      <h2>Teoría y apuntes</h2>
+      <p>Reflexiones, conceptos y documentación desarrollada a lo largo del curso, publicados en mi blog de WordPress.</p>
+      <a class="btn" href="https://oamacor.wordpress.com" target="_blank">Visitar mi blog en WordPress</a>
+    </section>
+
+   
+  </main>
+
+  <footer>
+    <p>© 2025 Oscar – Portfolio de Programación</p>
+  </footer>
+
 </body>
 </html>
